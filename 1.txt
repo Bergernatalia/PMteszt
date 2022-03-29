@@ -2,3 +2,5 @@ ahoj
 blabla
 
 salalala
+
+docker run -d -it -p 3001:80 -v /home/user01/docker-kedd:/usr/local/apache2/htdocs/ nginx:1.20-alpine
